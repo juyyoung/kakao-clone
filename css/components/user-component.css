@@ -50,3 +50,7 @@
   display: block;
   font-size: 15px;
 }
+.user-component__lightbulb {
+  color: tomato;
+  margin-left: 6px;
+}

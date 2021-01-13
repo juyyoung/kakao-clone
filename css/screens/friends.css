@@ -17,12 +17,19 @@
 
 .friends-screen__channel {
   margin-top: 25px;
-  border-top: 1.4px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 .friends-screen__channel-header {
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--text-color-gray);
+}
+.recommended-friends span {
+  margin: 100px 0px;
+  display: block;
+  text-align: center;
+  color: var(--text-color-gray);
+  font-size: 18px;
 }
