@@ -1,0 +1,30 @@
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.02);
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting i {
+  margin-right: 18px;
+}
+.settings__setting-border-bottom {
+  border-bottom: 1.4px solid rgba(0, 0, 0, 0.07);
+  padding-bottom: 50px;
+}
+.settings__setting-column-last {
+  opacity: 0.5;
+}
+.settings__setting-border-top {
+  padding-top: 50px;
+}
+.settings__setting-circle {
+  color: tomato;
+  margin-left: 7.5px;
+  font-size: 18px;
+}
+.settings__setting-column {
+  display: flex;
+  align-items: center;
+}
