@@ -18,3 +18,14 @@
   margin-left: 445px;
   margin-bottom: 27.5px;
 }
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.fa-cog:hover {
+  animation: rotateCog 2s ease-in-out infinite;
+}
