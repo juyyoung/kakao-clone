@@ -14,9 +14,16 @@
 .screen-header__icons span {
   margin-left: 21px;
 }
+.screen-header__icons {
+  position: relative;
+}
 .screen-header__circle {
-  margin-left: 445px;
-  margin-bottom: 27.5px;
+  position: absolute;
+  margin-left: 103px;
+  margin-top: -25px;
+}
+.find__screen-header__circle {
+  margin-left: 57px;
 }
 @keyframes rotateCog {
   from {
